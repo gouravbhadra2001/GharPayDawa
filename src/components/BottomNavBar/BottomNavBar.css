@@ -1,0 +1,24 @@
+#bottomNavBar{
+ 
+    padding-block: 0;
+    display: flex;
+    width: 40%;
+    background-color: aqua;
+    margin-inline: auto;
+    justify-content: space-between;
+    
+
+}
+
+.bottomNavBarItem{
+    padding-block: 10px;
+  
+   
+display: flex;
+flex-direction: column;
+text-decoration: none;
+justify-content: center;
+align-items: center;
+}
+
+

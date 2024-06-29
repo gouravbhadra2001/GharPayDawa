@@ -1,0 +1,49 @@
+.auth-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .auth-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    z-index: 2000;
+  }
+  
+  .auth-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-options {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .login-options label {
+    margin: 5px 0;
+  }
+  
+  .google-login-button {
+    background-color: #4285f4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .google-login-button:hover {
+    background-color: #357ae8;
+  }
+  

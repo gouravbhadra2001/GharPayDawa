@@ -1,0 +1,53 @@
+section{
+    padding: 20px;
+}
+
+.shortcuts{
+    padding: 20px;
+}
+
+.shortcuts .body{
+    display: flex;
+    overflow-y: hidden;
+   overflow-x: auto;
+   z-index: 10;
+   scrollbar-width: none;
+}
+
+.shortcuts .head{
+    text-align: center;
+    margin-block-start: 150px;
+}
+
+.product-list {
+    display: flex;
+    overflow-x: auto;
+    position: relative;
+    scrollbar-width: none;
+  }
+  
+  .slider-controller{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+    align-items: center;
+    background-attachment: fixed;
+   
+
+  }
+
+  
+
+.prev, .next{
+    color: wheat;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
